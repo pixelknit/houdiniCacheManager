@@ -35,8 +35,8 @@ Step 5) This will display the default python panel, in the drop down menu you'll
 ![06](https://github.com/user-attachments/assets/62c49dce-7e76-492d-9032-0b17ca0f1e14)  
 
 Step 6) This will display your python panel, if you are creating it from scratch following this, the panel will be empty, maybe with the default "Hello World".  
-So time to edit the panel and add the code, click the gear icon and select -> Edit Interface, this will open the Python Panel Editor again, copy/paste the code  
-from the file "cache_manager_panel.py" into the script section, make sure you are editing your panel.  
+So time to edit the panel and add the code, click the gear icon and select -> Edit Interface, this will open the Python Panel Editor again.  
+Copy/paste the code from the file "cache_manager_panel.py" into the script section, make sure you are editing your panel.  
 
 
 ![07](https://github.com/user-attachments/assets/85441974-1dc2-4100-8010-50fcaf63625f)  
@@ -47,5 +47,5 @@ After you paste the code click apply or accept and you'll have the full function
 # TODO
 -Automate this process with a shell or bat script.  
 -Avoid the copy paste of the code and modularize it in the script sections.  
--Create classes for the functions in the main script.
+-Create classes for the functions in the main script.  
 -In some OS the list of caches is unordered, so the list might have to be sorted in the code.
