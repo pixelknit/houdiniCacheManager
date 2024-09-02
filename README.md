@@ -30,7 +30,7 @@ Step 4) Now that the interface lives in your scene you can access it in any pane
 ![05](https://github.com/user-attachments/assets/2282c300-51f2-494e-8f18-a3227c5050c5)  
 
 Step 5) This will display the default python panel, in the drop down menu you'll have access to all the interfaces in your scene, so select yours.  
-(You might have to restart Houdini it yours doesn't show up).  
+(You might have to restart Houdini if yours doesn't show up).  
 
 ![06](https://github.com/user-attachments/assets/62c49dce-7e76-492d-9032-0b17ca0f1e14)  
 
