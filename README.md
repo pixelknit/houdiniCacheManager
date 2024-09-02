@@ -13,13 +13,13 @@ unused caches, it will only delete caches with versions lower than the current o
 The tool is a Houdini python panel, it's using PySide2, QTWidgets, QtCore, but it relies on the main Houdini Python Panel API.
 All the code for the panel is in the file cache_manager_panel.py. In order to use the tool you need to create a new python panel.  
 
-Step 1) Set your Houdini project so it points to the right folder structure.  
-
+Step 1) Open the scene (for testing purposes) start_v001.hip in Houdini. Set your Houdini project so it points to the right folder structure.  
+Wherever you cloned this repo, save the scene.  
 ![01_01](https://github.com/user-attachments/assets/7d21bab4-f3f3-46d8-ae1b-858f2c5ca1a9)  
 
 Step 2) Go to Windows -> Python Panel Editor, in the Interfaces tab, click the New Interface button.  
-Give your panel a name and label if you want, I'm calling mine Cache Utils, you can save it to the default  
-location or to any other location. (Save to..).  
+Give your panel a name and label if you want, I'm calling mine cache_lister (label: Cache Utils), you can save it to the default  
+location or to any other location. (Save to path field).  
 
 Step 3) Once your interface is saved, in the Python Panel Editor, change to the Pane Tab Menu tab, in here you'll see a list
 of all the available interfaces on the left side, select your interface and click the right arrow to add it to your scene.  
@@ -30,6 +30,7 @@ Step 4) Now that the interface lives in your scene you can access it in any pane
 ![05](https://github.com/user-attachments/assets/2282c300-51f2-494e-8f18-a3227c5050c5)  
 
 Step 5) This will display the default python panel, in the drop down menu you'll have access to all the interfaces in your scene, so select yours.  
+(You might have to restart Houdini it yours doesn't show up).  
 
 ![06](https://github.com/user-attachments/assets/62c49dce-7e76-492d-9032-0b17ca0f1e14)  
 
@@ -47,3 +48,4 @@ After you paste the code click apply or accept and you'll have the full function
 -Automate this process with a shell or bat script.  
 -Avoid the copy paste of the code and modularize it in the script sections.  
 -Create classes for the functions in the main script.
+-In some OS the list of caches is unordered, so the list might have to be sorted in the code.
