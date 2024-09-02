@@ -44,6 +44,6 @@ from the file "cache_manager_panel.py" into the script section, make sure you ar
 After you paste the code click apply or accept and you'll have the full functional tool.
 
 # TODO
--Automate this process with a shell or batch script.  
+-Automate this process with a shell or bat script.  
 -Avoid the copy paste of the code and modularize it in the script sections.  
 -Create classes for the functions in the main script.
