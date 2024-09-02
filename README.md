@@ -21,7 +21,7 @@ Step 2) Go to Windows -> Python Panel Editor, in the Interfaces tab, click the N
 Give your panel a name and label if you want, I'm calling mine Cache Utils, you can save it to the default  
 location or to any other location. (Save to..).  
 
-Step 3) Once your interface is saved, in the Python Panel Editor, change to the Pane Tab Menu tab, in here you'll see a list  
+Step 3) Once your interface is saved, in the Python Panel Editor, change to the Pane Tab Menu tab, in here you'll see a list
 of all the available interfaces on the left side, select your interface and click the right arrow to add it to your scene.  
 
 ![03](https://github.com/user-attachments/assets/df06d80d-6cf8-4a6c-afb7-a375ef028cf5)  
@@ -42,3 +42,8 @@ from the file "cache_manager_panel.py" into the script section, make sure you ar
 ![08](https://github.com/user-attachments/assets/4fd2b99b-9ba4-4635-8b8e-c1e18d31ecd8)  
 
 After you paste the code click apply or accept and you'll have the full functional tool.
+
+# TODO
+-Automate this process with a shell or batch script.  
+-Avoid the copy paste of the code and modularize it in the script sections.  
+-Create classes for the functions in the main script.
