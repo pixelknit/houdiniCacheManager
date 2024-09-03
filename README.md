@@ -45,7 +45,7 @@ Delete all the code in the script section of your panel, then copy/paste the cod
 After you paste the code click apply or accept and you'll have the full functional tool.
 
 # TODO
--Automate this process with a shell or bat script.  
+-Automate this process with an HDA or an automatic panel.  
 -Avoid the copy paste of the code and modularize it in the script sections.  
 -Create classes for the functions in the main script.  
 -In some OS the list of caches is unordered, so the list might have to be sorted in the code.
