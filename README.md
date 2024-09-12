@@ -37,6 +37,7 @@ Step 5) This will display the default python panel, in the drop down menu you'll
 Step 6) This will display your python panel, if you are creating it from scratch following this, the panel will be empty, maybe with the default "Hello World".  
 So time to edit the panel and add the code, click the gear icon and select -> Edit Interface, this will open the Python Panel Editor again.  
 Delete all the code in the script section of your panel, then copy/paste the code from the file "cache_manager_panel.py" into the script section, make sure you are editing your panel.  
+You can always refresh the pytho panel with the refresh icon.  
 
 
 ![07](https://github.com/user-attachments/assets/85441974-1dc2-4100-8010-50fcaf63625f)  
